@@ -17,18 +17,6 @@ var i = 0;
 var alarms_ul = document.getElementById("alarms_ul");
 var audio = new Audio("music/alarm.mp3");
 
-// function darkMode() {
-//   console.log("dark mode worked");
-//   var element = document.getElementById("container");
-//   element.classList.toggle("dark-mode");
-//   var element = document.getElementById("footer");
-//   element.classList.toggle("dark-mode");
-//   var element = document.body;
-//   element.classList.toggle("dark-mode");
-//   var element = document.getElementById("header");
-//   element.classList.toggle("dark-mode");
-// }
-
 const updateTime = () => {
   const time = new Date();
   let hours = time.getHours();
